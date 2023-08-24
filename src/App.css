@@ -1,0 +1,32 @@
+/* Styles.css */
+.app-container {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0.5rem;
+  }
+}
+/* App.css */
+/* Global styling and media queries */
+/* Add your global styles here */
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .app-container {
+    padding: 1rem;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 992px) {
+  /* Adjust styles for larger screens */
+  .app-container {
+    padding: 2rem;
+  }
+}

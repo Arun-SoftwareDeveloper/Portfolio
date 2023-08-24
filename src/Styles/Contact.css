@@ -1,0 +1,107 @@
+/* Contact.css */
+/* Styles for the Contact component */
+
+.contact-container {
+  padding: 2rem;
+  /* position: relative; */
+  /* right: 40px; */
+}
+
+.con {
+  font-size: 2rem;
+  margin-right: 700px;
+}
+
+/* Styles for the form */
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.bt {
+  background-color: #333;
+  color: #fff;
+}
+
+.bt:hover {
+  background-color: #d9534f;
+}
+
+/* Styles for the toast notifications */
+.Toastify__toast {
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.Toastify__toast--success {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.Toastify__toast--error {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+/* Styles for the form container */
+.row-content {
+  margin-top: 2rem;
+}
+
+/* Styles for the form header */
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.buymeacoffee-container {
+  position: relative;
+  left: 700px;
+  bottom: 450px;
+}
+
+.image-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.2s;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #888;
+}

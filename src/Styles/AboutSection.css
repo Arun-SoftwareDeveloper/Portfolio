@@ -1,0 +1,55 @@
+.about-container {
+  background-color: #000;
+  padding: 80px 0;
+  margin-right: 300px;
+}
+
+.education-title {
+  color: white;
+}
+
+.about-header {
+  margin-bottom: 30px;
+}
+
+.font-weight-bold.con {
+  font-size: 36px;
+}
+
+.about-content {
+  width: 800px;
+  margin-right: 30px;
+  border-left: 5px solid rgb(218, 47, 47);
+}
+
+.special {
+  background-color: #333; /* Card background color */
+  border: none;
+}
+
+.duration {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.colored-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ffc107; /* Colored circle */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -18px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .con {
+    font-size: 28px;
+  }
+}

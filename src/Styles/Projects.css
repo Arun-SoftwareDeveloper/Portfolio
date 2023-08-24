@@ -1,0 +1,277 @@
+/* Projects.css */
+
+.project-container {
+  background-color: #000; /* Black background color */
+  padding: 80px 0; /* Add padding to the top and bottom */
+  position: relative;
+  bottom: 100px;
+}
+
+.project-title {
+  margin-right: 370px;
+}
+.row-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.font-weight-bold.con {
+  font-size: 36px;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #333; /* Card background color */
+  color: #fff; /* Card text color */
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-subtitle {
+  font-size: 16px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn {
+  background-color: #ffc107; /* Button background color */
+  border: none;
+  color: #000; /* Button text color */
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #e0a800; /* Button background color on hover */
+  transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .con {
+    font-size: 28px;
+  }
+}
+/* Global Styles */
+.primary {
+  color: #09fdd9;
+}
+
+.secondary {
+  color: #fe0a54;
+}
+
+.a {
+  color: lightgrey;
+  font-family: "Abel", sans-serif;
+}
+
+.j {
+  color: white;
+}
+
+body {
+  padding: 50px 0 0 0;
+  z-index: 0;
+  background-color: black;
+}
+
+.c {
+  background-color: black;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  font-size: larger;
+  font-weight: bolder;
+  background-color: black;
+}
+
+#Navbar a:hover {
+  color: #fe0a54;
+}
+
+/* Contact Form Styles */
+.in input,
+.in textarea {
+  border-color: lightgrey;
+  opacity: 0.8;
+  border-width: 3px;
+  background-color: #1d1d1d;
+  color: white;
+  font-weight: bold;
+}
+
+.in input:focus,
+.in textarea:focus {
+  background-color: #1d1d1d;
+  border-color: #fe0a54;
+  border-width: 4px;
+  transition: ease-in 0.3s;
+  color: white;
+}
+
+.in a {
+  border-radius: 30px;
+  /* background-color: black; */
+  border-color: #fe0a54;
+  border-width: 3px;
+  font-weight: bold;
+}
+
+.in a:hover {
+  background-color: #fe0a54;
+  color: white;
+}
+
+/* Card Styles */
+.card {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.card img {
+  width: 400px;
+  height: 210px;
+}
+
+.card p {
+  color: white;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.card a:hover {
+  background-color: #fe0a54;
+  color: white;
+}
+
+.card a {
+  border-radius: 30px;
+  background-color: rgb(206, 48, 56);
+  border-color: #fe0a54;
+  border-width: 3px;
+  font-weight: bold;
+}
+
+.card h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card p {
+  font-weight: bold;
+}
+
+/* Social Icons Styles */
+.social a {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.social a:hover {
+  color: #fe0a54;
+}
+
+/* Next Page Animation */
+.next-page {
+  font-weight: bolder;
+  color: grey;
+  animation: updown 1s infinite alternate-reverse;
+}
+
+@keyframes updown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+/* General Styles */
+.special {
+  border-left-color: #fe0a54;
+  border-left-width: 5px;
+}
+
+.row-content {
+  padding: 80px 0 0 0;
+}
+
+.con {
+  opacity: 0.7;
+  color: grey;
+}
+
+.k i,
+.l i {
+  font-size: 60px;
+  color: whitesmoke;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.k h2,
+.l h2 {
+  padding-bottom: 20px;
+}
+
+.m {
+  padding-top: 20px;
+}
+
+/* Glowing Circle Animation */
+div .colored-circle {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.5px;
+  background-color: #09fdd9;
+  background-color: #09fdd9;
+  height: 10px;
+  width: 10px;
+  animation: glowing 2000ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #9df9eb;
+    box-shadow: 0 0 3px #9df9eb;
+  }
+  50% {
+    background-color: #66f7e1;
+    box-shadow: 0 0 10px #66f7e1;
+  }
+  100% {
+    background-color: #09fdd9;
+    box-shadow: 0 0 3px #09fdd9;
+  }
+}

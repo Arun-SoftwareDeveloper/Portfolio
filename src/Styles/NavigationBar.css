@@ -1,0 +1,40 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  z-index: 100;
+}
+
+.navbar-dark {
+  background-color: #333;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #686767;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #eb4b59;
+}
+
+.img-fluid {
+  margin-left: 270px;
+}
